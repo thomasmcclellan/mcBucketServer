@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 //DB Connection
-mongoose.connect('mongodb://<mcbucket>:<mcbucket1>@ds141434.mlab.com:41434/bucketlist' || 'mongodb://localhost:bucket/bucket');
+mongoose.connect('mongodb://mcbucket:mcbucket1@ds141434.mlab.com:41434/bucketlist' || 'mongodb://localhost:bucket/bucket');
 
 //Middleware
 app.use(cors());
